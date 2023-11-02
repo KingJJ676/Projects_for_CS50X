@@ -1,4 +1,4 @@
-# Runoff
+# Runoff Election
 This program discriminates the winner of a runoff election, per the below.  
 ```c
 ./runoff Alice Bob Charlie
