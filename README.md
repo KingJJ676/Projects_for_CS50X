@@ -1,3 +1,8 @@
-# Projects-for-CS50
-This repo includes all the projects I did for Harvard CS50's Introduction to Computer Science.  
-Look at each branch to see the projects.
+# Substitution
+This is a program that encrypt messages using a substitution cipher.  
+At the time the user executes the program, they should decide, by providing a command-line argument, on what the key should be in the secret message they’ll provide at runtime. per the below.
+```c
+$ ./substitution JTREKYAVOGDXPSNCUIZLFBMWHQ
+plaintext:  HELLO
+ciphertext: VKXXN
+```
