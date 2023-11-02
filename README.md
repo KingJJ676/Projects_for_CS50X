@@ -1,5 +1,10 @@
 # Credit Card Discriminator
-This is a discriminator that checks if a given credit card number is valid, and if valid, which of the companies mentioned below it is from.  
+This is a discriminator that checks if a given credit card number is valid, and if valid, which of the companies mentioned below it is from, per the below.  
+```c
+$ ./credit
+Number: 4003600000000014
+VISA
+```
 
 ## Credit Cards
 - **American Express:**
