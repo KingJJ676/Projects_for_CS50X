@@ -1,5 +1,7 @@
 # Filters
-This project focuses on what we can do with pixels. 4 kinds of filters are included: grayscale, reflection, blur, and identifying edges. Check out the **helpers.c** file to see the code.
+This project focuses on what we can do with pixels. 4 kinds of filters are included: grayscale, reflection, blur, and identifying edges. 
+
+Check out the **helpers.c** file to see the code.
 
 ## Grayscale
 To convert a pixel to grayscale, we just need to make sure the red, green, and blue values are all the same value. To ensure each pixel of the new image still has the same general brightness or darkness as the old image, we can take the average of the red, green, and blue values to determine what shade of grey to make the new pixel.
