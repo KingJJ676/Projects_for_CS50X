@@ -1,4 +1,4 @@
-# Projects-for-CS50
+# Projects for CS50's Introduction to Computer Science
 This repo contains the projects I did for Harvard CS50's Introduction to Computer Science course, including ten problem sets, nine labs, and one final project. Not all lab projects are included because some are too minor to be recorded.   
 
 **Click on the links below to check each branch for the projects.**
