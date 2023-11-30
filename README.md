@@ -10,5 +10,5 @@ This repo contains the projects I did for Harvard CS50's Introduction to Compute
 [week3_plurality](https://github.com/KingJJ676/Projects-for-CS50/tree/week3_plurality)  
 [week3_runoff-election](https://github.com/KingJJ676/Projects-for-CS50/tree/week3_runoff-election)  
 [week4_filters](https://github.com/KingJJ676/Projects-for-CS50/tree/week4_filters)  
-[week4_reverse](https://github.com/KingJJ676/Projects-for-CS50/blob/week4_reverse/README.md  )  
+[week4_reverse](https://github.com/KingJJ676/Projects-for-CS50/tree/week4_reverse)  
 [week5_inheritance](https://github.com/KingJJ676/Projects-for-CS50/tree/week5_inheritance)
