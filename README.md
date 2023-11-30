@@ -1,13 +1,13 @@
-# Projects for CS50's Introduction to Computer Science
-This repo contains the projects I did for Harvard CS50's Introduction to Computer Science course, including ten problem sets, nine labs, and one final project. Not all lab projects are included because some are too minor to be recorded.   
+# Inheritance
+A person’s blood type is determined by two alleles. The three possible alleles are A, B, and O, of which each person has two. Each of a child’s parents randomly passes one of their two blood type alleles to their child. The possible blood type combinations, then, are: OO, OA, OB, AO, AA, AB, BO, BA, and BB. This programs shows the blood type of a three-generation family.
 
-**Click on the links below to check each branch for the projects.**
-
-[week0_Ahhhhtopous-Killer](https://github.com/KingJJ676/Projects-for-CS50/tree/week0_Ahhhhtopous-killer)  
-[week1_credit-card-discriminator](https://github.com/KingJJ676/Projects-for-CS50/tree/week1_credit-card-discriminator)  
-[week2_readability](https://github.com/KingJJ676/Projects-for-CS50/tree/week2_readability)  
-[week2_substitution](https://github.com/KingJJ676/Projects-for-CS50/tree/week2_substitution)  
-[week3_plurality](https://github.com/KingJJ676/Projects-for-CS50/tree/week3_plurality)  
-[week3_runoff-election](https://github.com/KingJJ676/Projects-for-CS50/tree/week3_runoff-election)  
-[week4_filters](https://github.com/KingJJ676/Projects-for-CS50/tree/week4_filters)  
-[week4_reverse](https://github.com/KingJJ676/Projects-for-CS50/blob/week4_reverse/README.md  )
+```
+$ ./inheritance
+Child (Generation 0): blood type OO
+    Parent (Generation 1): blood type AO
+        Grandparent (Generation 2): blood type OA
+        Grandparent (Generation 2): blood type BO
+    Parent (Generation 1): blood type OB
+        Grandparent (Generation 2): blood type AO
+        Grandparent (Generation 2): blood type BO
+```
