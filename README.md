@@ -12,4 +12,4 @@ This repo contains the projects I did for Harvard CS50's Introduction to Compute
 [week4_filters](https://github.com/KingJJ676/Projects-for-CS50/tree/week4_filters)  
 [week4_reverse](https://github.com/KingJJ676/Projects-for-CS50/tree/week4_reverse)   
 [week5_inheritance](https://github.com/KingJJ676/Projects-for-CS50/tree/week5_inheritance)  
-[week5_speller](https://github.com/KingJJ676/Projects-for-CS50/blob/week5_speller/README.md)
+[week5_speller](https://github.com/KingJJ676/Projects-for-CS50/tree/week5_speller)
