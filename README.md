@@ -1,15 +1,7 @@
-# Projects for CS50's Introduction to Computer Science
-This repo contains the projects I did for Harvard CS50's Introduction to Computer Science course, including ten problem sets, nine labs, and one final project. Not all lab projects are included because some are too minor to be recorded.   
+# World Cup
 
-**Click on the links below to check each branch for the projects.**
+In soccer, teams are given FIFA Ratings, which are numerical values representing each team’s relative skill level. Higher FIFA ratings indicate better previous game results, and given two teams’ FIFA ratings, it’s possible to estimate the probability that either team wins a game based on their current ratings.  
+  
+Using this information, we can simulate the entire tournament by repeatedly simulating rounds until we’re left with just one team. And if we want to estimate how likely it is that any given team wins the tournament, we might simulate the tournament many times (e.g. 1000 simulations) and count how many times each team wins a simulated tournament.
 
-[week0_Ahhhhtopous-Killer](https://github.com/KingJJ676/Projects-for-CS50/tree/week0_Ahhhhtopous-killer)  
-[week1_credit-card-discriminator](https://github.com/KingJJ676/Projects-for-CS50/tree/week1_credit-card-discriminator)  
-[week2_readability](https://github.com/KingJJ676/Projects-for-CS50/tree/week2_readability)  
-[week2_substitution](https://github.com/KingJJ676/Projects-for-CS50/tree/week2_substitution)  
-[week3_plurality](https://github.com/KingJJ676/Projects-for-CS50/tree/week3_plurality)  
-[week3_runoff-election](https://github.com/KingJJ676/Projects-for-CS50/tree/week3_runoff-election)  
-[week4_filters](https://github.com/KingJJ676/Projects-for-CS50/tree/week4_filters)  
-[week4_reverse](https://github.com/KingJJ676/Projects-for-CS50/tree/week4_reverse)   
-[week5_inheritance](https://github.com/KingJJ676/Projects-for-CS50/tree/week5_inheritance)  
-[week5_speller](https://github.com/KingJJ676/Projects-for-CS50/tree/week5_speller)
+Two data of the previous World Cups are provided: the May 2018 Men's FIFA Ratings and March 2019 Women's FIFA Ratings.
