@@ -1,0 +1,1 @@
+SELECT title FROM movies, stars, people WHERE stars.movie_id = movies.id AND people.id = stars.person_id AND name = 'Jennifer Lawrence' AND title IN (SELECT title FROM movies, stars, people WHERE stars.movie_id = movies.id AND people.id = stars.person_id AND name = 'Bradley Cooper');
