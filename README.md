@@ -1,6 +1,7 @@
 # Movies (SQLITE3)
 Week 7 is about learning SQL and implementing it with python.  
-In this problem set, I dealt with 13 quesitons(stated below) by selecting data from one or more tables in movies.db.  
+In this problem set, I dealt with 13 quesitons(stated below) by selecting data from one or more tables in ```movies.db```.  
+- ```movies.db``` can be downloaded via [this link.](https://drive.google.com/file/d/1fGHdeis_EPg-JsyNeY1_QuTYv3Xb08E9/view?usp=sharing)  
 
 ## Tables in movies.db
 The ```movies``` table has an ```id``` column that uniquely identifies each movie, as well as columns for the ```title``` of a movie and the ```year``` in which the movie was released.  
