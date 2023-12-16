@@ -1,17 +1,12 @@
-# Projects for CS50's Introduction to Computer Science
-This repo contains the projects I did for Harvard CS50's Introduction to Computer Science course, including ten problem sets, nine labs, and one final project. Not all lab projects are included because some are too minor to be recorded.   
+# Movies (SQLITE3)
+Week 7 is about learning SQL and implementing it with python.  
+In this problem set, I dealt with several quesitons by selecting data from one or more tables in movies.db.  
 
-**Click on the links below to check each branch for the projects.**
+## Tables in movies.db
+The ```movies``` table has an ```id``` column that uniquely identifies each movie, as well as columns for the ```title``` of a movie and the ```year``` in which the movie was released.  
 
-[week0_Ahhhhtopous-Killer](https://github.com/KingJJ676/Projects-for-CS50/tree/week0_Ahhhhtopous-killer)  
-[week1_credit-card-discriminator](https://github.com/KingJJ676/Projects-for-CS50/tree/week1_credit-card-discriminator)  
-[week2_readability](https://github.com/KingJJ676/Projects-for-CS50/tree/week2_readability)  
-[week2_substitution](https://github.com/KingJJ676/Projects-for-CS50/tree/week2_substitution)  
-[week3_plurality](https://github.com/KingJJ676/Projects-for-CS50/tree/week3_plurality)  
-[week3_runoff-election](https://github.com/KingJJ676/Projects-for-CS50/tree/week3_runoff-election)  
-[week4_filters](https://github.com/KingJJ676/Projects-for-CS50/tree/week4_filters)  
-[week4_reverse](https://github.com/KingJJ676/Projects-for-CS50/tree/week4_reverse)   
-[week5_inheritance](https://github.com/KingJJ676/Projects-for-CS50/tree/week5_inheritance)  
-[week5_speller](https://github.com/KingJJ676/Projects-for-CS50/tree/week5_speller)  
-[week6_worldcup](https://github.com/KingJJ676/Projects-for-CS50/tree/week6_worldcup)  
-[week6_dna](https://github.com/KingJJ676/Projects-for-CS50/tree/week6_dna)
+The ```people``` table also has an ```id``` column, and also has columns for each person’s ```name``` and ```birth``` year.
+
+Movie ratings, meanwhile, are stored in the ```ratings``` table. The first column in the table is ```movie_id```: a foreign key that references the id of the movies table. The rest of the row contains data about the ```rating``` for each movie and the number of ```votes``` the movie has received on IMDb.
+
+Finally, the ```stars``` and ```directors``` tables match people to the movies in which they acted or directed. (Only principal stars and directors are included.) Each table has just two columns: ```movie_id``` and ```person_id```, which reference a specific movie and person, respectively.
