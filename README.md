@@ -14,4 +14,5 @@ This repo contains the projects I did for Harvard CS50's Introduction to Compute
 [week5_inheritance](https://github.com/KingJJ676/Projects-for-CS50/tree/week5_inheritance)  
 [week5_speller](https://github.com/KingJJ676/Projects-for-CS50/tree/week5_speller)  
 [week6_worldcup](https://github.com/KingJJ676/Projects-for-CS50/tree/week6_worldcup)  
-[week6_dna](https://github.com/KingJJ676/Projects-for-CS50/tree/week6_dna)
+[week6_dna](https://github.com/KingJJ676/Projects-for-CS50/tree/week6_dna)  
+[week7_movies](https://github.com/KingJJ676/Projects-for-CS50/tree/week7_movies)  
