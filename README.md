@@ -1,18 +1,14 @@
-# Projects for CS50's Introduction to Computer Science
-This repo contains the projects I did for Harvard CS50's Introduction to Computer Science course, including ten problem sets, nine labs, and one final project. Not all lab projects are included because some are too minor to be recorded.   
+# Fiftyville
+This problem set requires me to write SQL queries to solve a mystery.  
+The queries I conducted can be seen at ```log.sql```, which is a record I kept on how I solve the mystery.  
+My answer to the mystery can be seen at ```answers.txt```.
 
-**Click on the links below to check each branch for the projects.**
+## Background story
+The CS50 Duck has been stolen! The town of Fiftyville has called upon you to solve the mystery of the stolen duck. Authorities believe that the thief stole the duck and then, shortly afterwards, took a flight out of town with the help of an accomplice. Your goal is to identify:
 
-[week0_Ahhhhtopous-Killer](https://github.com/KingJJ676/Projects-for-CS50/tree/week0_Ahhhhtopous-killer)  
-[week1_credit-card-discriminator](https://github.com/KingJJ676/Projects-for-CS50/tree/week1_credit-card-discriminator)  
-[week2_readability](https://github.com/KingJJ676/Projects-for-CS50/tree/week2_readability)  
-[week2_substitution](https://github.com/KingJJ676/Projects-for-CS50/tree/week2_substitution)  
-[week3_plurality](https://github.com/KingJJ676/Projects-for-CS50/tree/week3_plurality)  
-[week3_runoff-election](https://github.com/KingJJ676/Projects-for-CS50/tree/week3_runoff-election)  
-[week4_filters](https://github.com/KingJJ676/Projects-for-CS50/tree/week4_filters)  
-[week4_reverse](https://github.com/KingJJ676/Projects-for-CS50/tree/week4_reverse)   
-[week5_inheritance](https://github.com/KingJJ676/Projects-for-CS50/tree/week5_inheritance)  
-[week5_speller](https://github.com/KingJJ676/Projects-for-CS50/tree/week5_speller)  
-[week6_worldcup](https://github.com/KingJJ676/Projects-for-CS50/tree/week6_worldcup)  
-[week6_dna](https://github.com/KingJJ676/Projects-for-CS50/tree/week6_dna)  
-[week7_movies](https://github.com/KingJJ676/Projects-for-CS50/tree/week7_movies)  
+- Who the thief is,
+- What city the thief escaped to
+- Who the thief’s accomplice is who helped them escape
+All you know is that the theft **took place on July 28, 2021** and that it **took place on Humphrey Street**.
+
+How will you go about solving this mystery? The Fiftyville authorities have taken some of the town’s records from around the time of the theft and prepared a SQLite database for you, ```fiftyville.db```, which contains tables of data from around the town. 
