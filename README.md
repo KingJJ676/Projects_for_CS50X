@@ -17,4 +17,4 @@ This repo contains the projects I did for Harvard CS50's Introduction to Compute
 [week6_dna](https://github.com/KingJJ676/Projects-for-CS50/tree/week6_dna)  
 [week7_movies](https://github.com/KingJJ676/Projects-for-CS50/tree/week7_movies)   
 [week7_fiftyville](https://github.com/KingJJ676/Projects-for-CS50/tree/week7_fiftyville)  
-[week9_homepage](https://github.com/KingJJ676/Projects-for-CS50/tree/week9_homepage)
+[week8_homepage](https://github.com/KingJJ676/Projects-for-CS50/tree/week9_homepage)
