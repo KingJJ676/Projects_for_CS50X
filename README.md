@@ -18,4 +18,5 @@ This repo contains the projects I did for Harvard CS50's Introduction to Compute
 [week7_movies](https://github.com/KingJJ676/Projects-for-CS50/tree/week7_movies)   
 [week7_fiftyville](https://github.com/KingJJ676/Projects-for-CS50/tree/week7_fiftyville)  
 [week8_homepage](https://github.com/KingJJ676/Projects-for-CS50/tree/week9_homepage)  
-[week9_finance](https://github.com/KingJJ676/Projects-for-CS50/tree/week9_finance)
+[week9_finance](https://github.com/KingJJ676/Projects-for-CS50/tree/week9_finance)  
+[final_meetUP](https://github.com/KingJJ676/Projects-for-CS50/tree/final_meetUP)
