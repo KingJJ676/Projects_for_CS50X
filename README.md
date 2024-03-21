@@ -19,4 +19,8 @@ This repo contains the projects I did for Harvard CS50's Introduction to Compute
 [week7_fiftyville](https://github.com/KingJJ676/Projects-for-CS50/tree/week7_fiftyville) : SQL  
 [week8_homepage](https://github.com/KingJJ676/Projects-for-CS50/tree/week9_homepage) : HTML, CSS, JavaScript  
 [week9_finance](https://github.com/KingJJ676/Projects-for-CS50/tree/week9_finance) : Flask  
-[final_meetUP](https://github.com/KingJJ676/Projects-for-CS50/tree/final_meetUP): building a complete web application!
+[final_meetUP](https://github.com/KingJJ676/Projects-for-CS50/tree/final_meetUP): building a complete web application!  
+
+Hooray for completing the course and getting the certificate!  
+![CS50x certificate!_JPG](https://github.com/KingJJ676/Projects_for_CS50X/assets/130853046/25c552b9-fad6-424f-bd5d-dcf403cbccc4)
+
