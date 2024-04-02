@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+
+    <!--stock info-->
+    <table>
+        <tr>
+            <th>Stock</th>
+            <th>Shares</th>
+            <th>Current Price</th>
+            <th>Total Value</th>
+        </tr>
+        {% for stock in distinct_stocks %}
+            <tr>
+                <td>{{ index[stock]["symbol"] }}</td>
+                <td>{{ index[stock]["shares"] }}</td>
+                <td>{{ index[stock]["cur_price"] | usd }}</td>
+                <td>{{ index[stock]["total_value"] | usd }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <!--user info-->
+    <p></p>
+    <div id="userInfo">
+        <div>
+            Cash Balance: {{ cash | usd }}
+        </div>
+        <div>
+            Grand Total: {{ grand_total | usd }}
+        </div>
+    </div>
+{% endblock %}
