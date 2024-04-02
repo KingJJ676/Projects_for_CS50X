@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block body %}
+    <form action="/register/{{ eventID }}" method="post">
+
+        <div style="margin-top: 50px">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="userName" placeholder="Username" type="text">
+        </div>
+
+        <div style="margin-top: 30px">
+            <input class="form-control mx-auto w-auto" name="password" placeholder="Password" type="text">
+        </div>
+
+        <div style="margin-top: 30px">
+            <input class="form-control mx-auto w-auto" name="confirmation" placeholder="Confirmation" type="text">
+        </div>
+
+        <div style="margin-top: 20px">
+            <button class="button2" type="submit">Register</button>
+        </div>
+
+    </form>
+{% endblock %}

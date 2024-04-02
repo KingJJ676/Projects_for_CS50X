@@ -1,0 +1,70 @@
+<!--show available dates-->
+<div class="row">
+    {% for date in Time %}
+        <div class="col">
+            <table name="scheduleCalendar" class="table table-bordered table-hover">
+                <!--show dates as th-->
+                <th> {{ date }} </th>
+
+                <!--show hours as tr-->
+                {% for hour in Time[date] %}
+                    <tr class="avaTime2"><td>
+                        <input type="checkbox" name="avaTime" value="{{ date }} {{ hour }}" class="d-none">
+                        <label for="avaTime"> {{ hour }} </label>
+                    </td></tr>
+                {% endfor %}
+            </table>
+        </div>
+    {% endfor %}
+</div>
+
+
+
+
+
+<!--make whole row clickable-->
+<script>
+    let rows = Array.from(document.getElementsByClassName("avaTime2"));
+
+    // define performance when checked/uncheck
+    function perform(row){
+        let checkbox = row.querySelector("[name = 'avaTime']");
+        let background = row.querySelector("td")
+
+        // if checkbox is blank: check the checkbox & change color
+        if (!checkbox.checked){
+            checkbox.checked = true;
+            background.classList.add("checked-hour");
+        }
+        // if already checked: uncheck the checkbox & unchange color
+        else{
+            checkbox.checked = false;
+            background.classList.remove("checked-hour");
+        }
+    };
+
+    // dragable
+    rows.forEach(function(row){
+
+        // listen for start of dragging
+        row.addEventListener("mousedown", function(){
+            drag = true;
+            row.classList.add('noselect');
+            perform(row);
+        });
+
+        // while dragging
+        row.addEventListener("mouseover", function(){
+            if (drag == true){
+                perform(row);
+            }
+        });
+
+        // listen for end of dragging
+        row.addEventListener("mouseup", function(){
+            drag = false;
+            row.classList.add('noselect');
+        });
+
+    });
+</script>

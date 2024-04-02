@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {{ eventName }}
+{% endblock %}
+
+{% block body %}
+
+    <div class="container" style="padding-top: 50px">
+        <h2>Event name: <b> {{ eventName }} </b></h2>
+    </div>
+    <div class="h5" style="padding-top: 30px">
+        <a href="/register/{{ eventID }}"><button class="button2">Register</button></a>
+        <p></p>
+        <a href="/login/{{ eventID }}"><button class="button2">Log in</button></a>
+    </div>
+
+{% endblock %}

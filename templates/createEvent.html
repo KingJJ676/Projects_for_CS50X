@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+
+{% block title %}
+    createEvent
+{% endblock %}
+
+{% block body %}
+    <form action="/createEvent" method="post">
+
+        <!--eventname-->
+        <div class="input-group" style="margin-top: 50px">
+            <span class="input-group-text">Event Name: </span>
+            <input type="text" class="form-control" name="eventName" autofocus autocomplete="off" placeholder="Event Name">
+        </div>
+
+        <!--datepicker-->
+        <div class="input-group" style="margin-top: 30px">
+            <span class="input-group-text">Start Date:</span>
+            <input type="datetime-local" class="form-control" name="startDate">
+        </div>
+
+        <div class="input-group" style="margin-top: 30px">
+            <span class="input-group-text">End Date:</span>
+            <input type="datetime-local" class="form-control" name="endDate">
+        </div>
+
+        <!--submit button-->
+        <div style="margin-top: 30px">
+            <button class="button2" type="submit">Create Event!</button>
+        </div>
+    </form>
+{% endblock %}

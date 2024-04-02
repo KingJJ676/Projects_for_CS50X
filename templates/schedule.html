@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Schedule for {{ eventName }}
+{% endblock %}
+
+{% block body %}
+    <!--sharable link-->
+
+    <form action="/schedule/{{ eventID }}" method="post" style="margin-top: 40px">
+
+        <!--calendar-->
+        {% include 'calendar.html' %}
+
+        <!--submit button-->
+        <div>
+            <button class="button2" type="submit">Submit</button>
+        </div>
+
+    </form>
+
+{% endblock %}

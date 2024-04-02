@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Result for {{ eventName }}
+{% endblock %}
+
+{% block body %}
+
+    {% if topNoLen > topMembLen %}
+        <div class="container" style="padding-top: 30px; padding-bottom: 30px">
+            <h2>There isn't a recommended time.</h2>
+        </div>
+    {% elif topNoLen == topMembLen %}
+        <div class="container" style="padding-top: 30px; padding-bottom: 30px">
+            <h2>There isn't a recommended time.</h2>
+        </div>
+    {% else %}
+        <div class="container" style="padding-top: 30px; padding-bottom: 30px">
+            <h2>Recommended Time: {{ top }}</h2>
+        </div>
+
+        <table class="table table-bordered mx-auto" style="width: 30%">
+            <th>Available members ({{ avaMemb }} / {{ allMemb }}):</th>
+
+            {% for member in topMemb %}
+                <tr><td> {{ member }} </td></tr>
+            {% endfor %}
+        </table>
+
+        <table class="table table-bordered mx-auto" style="width: 30%">
+            <th>Unavailable members  ({{ notAvaMemb }} / {{ allMemb }}):</th>
+
+            {% for member in topMemb_no %}
+                <tr><td>{{ member }}</td></tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+{% endblock %}
